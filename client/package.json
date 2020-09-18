@@ -3,16 +3,24 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+<<<<<<< HEAD
     "@fortawesome/fontawesome-free": "^5.14.0",
+=======
+>>>>>>> 94f1d0d9a37cafdcb231122a5536c407e72e05d9
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
     "axios": "^0.19.2",
     "bootstrap": "^4.5.2",
+<<<<<<< HEAD
     "boxicons": "^2.0.5",
     "compression": "^1.7.4",
     "express": "^4.17.1",
     "font-awesome": "^4.7.0",
+=======
+    "compression": "^1.7.4",
+    "express": "^4.17.1",
+>>>>>>> 94f1d0d9a37cafdcb231122a5536c407e72e05d9
     "jquery": "^3.5.1",
     "js-cookie": "^2.2.1",
     "jsonwebtoken": "^8.5.1",

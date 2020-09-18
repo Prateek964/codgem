@@ -22,12 +22,17 @@ const Facebook =({informParent = f => f }) => {
         })
     }
     return (
+<<<<<<< HEAD
         <div className="pb-2">
+=======
+        <div className="pb-3">
+>>>>>>> 94f1d0d9a37cafdcb231122a5536c407e72e05d9
             <FacebookLogin
             appId={`${process.env.REACT_APP_FACEBOOK_APP_ID}`}
             autoLoad={false}
             callback={responseFacebook}
             render={renderProps => (
+<<<<<<< HEAD
                 // <button onClick={renderProps.onClick} className="btn btn-primary btn-lg btn-block">Log in with Facebbok</button>
                 <button
                       onClick={renderProps.onClick}
@@ -38,6 +43,9 @@ const Facebook =({informParent = f => f }) => {
                         <span className='ml-4'>Sign In with Facebook</span>
                       </div>
                     </button>
+=======
+                <button onClick={renderProps.onClick} className="btn btn-primary btn-lg btn-block">Log in with Facebbok</button>
+>>>>>>> 94f1d0d9a37cafdcb231122a5536c407e72e05d9
               )}
             />
         </div>
