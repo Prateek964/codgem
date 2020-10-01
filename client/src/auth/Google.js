@@ -21,16 +21,38 @@ const Google =({informParent = f => f }) => {
         })
     }
     return (
+<<<<<<< HEAD
+        <div className="pb-2">
+=======
         <div className="pb-3">
+>>>>>>> 94f1d0d9a37cafdcb231122a5536c407e72e05d9
             <GoogleLogin
             clientId={`${process.env.REACT_APP_GOOGLE_CLIENT_ID}`}
             onSuccess={responseGoogle}
             onFailure={responseGoogle}
+<<<<<<< HEAD
+            cookiePolicy={'single_host_origin'}
+            render={renderProps => (
+                // <button onClick={renderProps.onClick} disabled={renderProps.disabled} className="btn btn-danger btn-lg btn-block">Log in with google</button>
+                <button
+                      onClick={renderProps.onClick}
+                      disabled={renderProps.disabled}
+                      className='w-full sign-in col-md-6 offset-md-3 max-w-xs font-bold shadow-sm rounded-lg py-2 bg-indigo-100 text-gray-800 flex items-center justify-center transition-all duration-300 ease-in-out focus:outline-none hover:shadow focus:shadow-sm focus:shadow-outline'
+                    >
+                      <div className=' p-2 rounded-full '>
+                        <i className='fab fa-google ' />
+                        <span className='ml-4'>Sign In with Google</span>
+                      </div>
+                    </button>
+              )}
+            />
+=======
             render={renderProps => (
                 <button onClick={renderProps.onClick} disabled={renderProps.disabled} className="btn btn-danger btn-lg btn-block">Log in with google</button>
               )}
             cookiePolicy={'single_host_origin'}
             />,
+>>>>>>> 94f1d0d9a37cafdcb231122a5536c407e72e05d9
         </div>
     )
 }
